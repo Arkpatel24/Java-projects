@@ -1,0 +1,13 @@
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\assingment
+> run part_B
+
+Enter four digit number:- [DrJava Input Box]
+
+Output:-4   9   8   7
+>
+
+
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\assingment> run part_B
+Enter four digit number:- [DrJava Input Box]
+Output:-6   9   2   1
+> 

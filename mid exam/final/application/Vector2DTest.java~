@@ -1,0 +1,10 @@
+package application;
+import java.util.Scanner;
+public class Vector2DTest
+{
+    public static void main(String args)
+    {
+        Scanner input=new Scanner(System.in);
+    }
+    
+}//end of class Vector2DTest

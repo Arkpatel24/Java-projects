@@ -1,0 +1,41 @@
+/* DogTest.java : tests the Dog3 class
+ *  author : Elmira Adeeb
+ *  version : 3th
+ */ 
+package sheridan;
+import java.util.Scanner ; // used to input values
+public class DogTest{
+     public static void main (String[] args) {
+        // Declarations & Initializations
+        Scanner input = new Scanner(System.in);
+        String userName1; // represents the name for dog1 object
+        String userName2; // represents the name for dog2 object
+        
+         // INPUT
+        System.out.print("Enter the name for dog 1: ");
+        userName1 = input.nextLine();
+        System.out.print("Enter the name for dog 2: ");
+        userName2 = input.nextLine();
+        
+        // set the name of the dog objects using a public setter
+        Dog3 one = new Dog3();
+        one.setName(userName1); // (one._name = userName1; )(INVALID)
+        one.setWeight (38.7);
+        Dog3 two = new Dog3(); // (small dog)
+        two.setName(userName2);// (two._name = userName2; )(INVALID)
+        two.setWeight(15.4);
+        // print the name of the dog objects using a public getter
+        System.out.println("The name of Dog 1 is: " + one.getName());  // one._name (INVALID)
+        System.out.println("The name of Dog 2 is: " + two.getName());  // two._name (INVALID)
+        // invoke the methods on the do objects 
+        one.bark();
+        two.bark();
+        
+        
+        
+    }
+    
+    
+    
+    
+}

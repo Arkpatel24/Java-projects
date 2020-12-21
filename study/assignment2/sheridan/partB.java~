@@ -1,0 +1,45 @@
+
+
+package sheridan;
+import java.util.Random;
+public class partB
+{
+    private int countHead=0;
+    private int countTail=0;
+    
+    public static void main(String args[])
+    {
+        partB self=new partB();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        self.calculates();
+        
+        System.out.println("Number of times head came:" +self.countHead);
+        System.out.println("Number of times tail came:" +self.countTail);
+    }
+    
+    public void calculates()
+    {
+        Random rnd = new Random();
+        double rndValue;
+        rndValue=rnd.nextDouble()+rnd.nextInt(1);
+        
+        if(rndValue>0.5)
+        {
+            System.out.println("Heads");
+            countHead++;
+        }
+        else
+        {
+            System.out.println("Tails");
+            countTail++;
+        }
+    }
+}

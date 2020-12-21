@@ -1,0 +1,24 @@
+/*part_B.java is a program that display 4 digit output by 3 spaces each
+* author:ARK PATEL
+*/
+import java.io.*;
+import java.util.Scanner;
+//defination of class part_B
+public class part_B
+{
+    public static void main(String args[])
+    {
+        //declaration and initialization
+        Scanner scan=new Scanner(System.in);
+        int a,b,c,d,e,f,g;
+        System.out.print("Enter four digit number:-");
+        a=scan.nextInt();
+        b=a/1000;
+        c=a-b*1000;
+        d=c/100;
+        e=c-d*100;
+        f=e/10;
+        g=e-f*10;
+        System.out.println("Output:-"+b+"   "+d+"   "+f+"   "+g);     
+    }//end of main method
+}//end of class

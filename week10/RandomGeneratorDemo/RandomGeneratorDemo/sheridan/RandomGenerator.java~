@@ -1,0 +1,14 @@
+package sheridan;
+import java.util.Random; // used to generate random values
+public class RandomGenerator{
+    public static void main(String[] args){
+        // Declarations & initializations
+        Random rnd = new Random();
+        int randomValue; // represents the random number 0 - 9
+        // generate a random value 0 - 9
+        randomValue = rnd.nextInt(10);
+        
+        System.out.println("The random value is: " + randomValue);
+        
+    }// end of the main method
+}// end of the class

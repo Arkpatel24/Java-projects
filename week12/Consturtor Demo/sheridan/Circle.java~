@@ -1,0 +1,34 @@
+package sheridan;
+//declaration of class
+public class Circle
+{
+    //feild variable
+    private double _radius;
+    private String _color;
+    
+    //constructor
+    public Circle(double rad,String col)
+    {
+        //initialize field variable
+        this._radius = rad;
+        this._color = col;
+    }
+    
+    //getters and setters
+    public double getRadius()
+    {
+        this._radius;
+    }
+    public void setRadius(double newRad)
+    {
+        this._radius = newRad;
+    }
+    public String getColor()
+    {
+        this._color;
+    }
+    public void setRadius(String newCol)
+    {
+        this._color = newCol;
+    }
+}//end of class

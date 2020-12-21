@@ -1,0 +1,15 @@
+/* Ch2Ex15.java is a program that calculate Distance between two points.
+ * Author: ARK PATEL
+*/
+package sheridan;
+import java.util.Scanner;
+//defination of class Ch2Ex15
+public class Ch2Ex15
+{
+    public static void main(String args[])
+    {
+        //declaration and initialization of variables
+        double x1,x2,y1,y2,distance;
+        Scanner
+    }//end of main method
+}//end of class Ch2Ex15

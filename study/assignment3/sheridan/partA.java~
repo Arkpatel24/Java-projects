@@ -1,0 +1,59 @@
+package sheridan;
+import java.util.Scanner;
+
+public class partA
+{
+    public static void main(String args[])
+    {
+       
+        int count=0;
+        int sum=0;
+        double average;
+        int maxValue=0;
+        int minValue=0;
+        int negativeValues=0;
+        int positiveValues=0;
+        int number;
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter integer:");
+        number=input.nextInt();
+       
+        do{
+            System.out.println("Enter integer:");
+            number=input.nextInt();
+            sum= sum + number;
+            count++;
+           
+         if(number > 0){
+             
+             positiveValues++;
+         }
+         else if(number < 0){
+             negativeValues++;
+         }
+        }while(number !=0);
+                        
+               
+         average=(double)sum/(double)count;
+         
+         if(number < minimumValue)
+         {
+             minimumValue=number;
+         }
+         else if(number > maximumValue)
+         {
+             maximumValue=number;
+         }
+           
+
+     
+        System.out.println("The total of all number is:"+sum);
+        System.out.println("The average of all number is:"+average);
+        System.out.println("The number of positive values are:"+positiveValues);
+        System.out.println("The number of negative values are:"+negativeValues);
+        System.out.println("The highest number entered is:"+maxValue);
+        System.out.println("The lowest number entered is:"+minValue);
+        
+      
+    }
+}

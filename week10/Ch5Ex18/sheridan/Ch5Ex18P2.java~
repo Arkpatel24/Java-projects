@@ -1,0 +1,17 @@
+package sheridan;
+public class Ch5Ex18P2
+{
+    public static void main(String args[])
+    {
+        int row , column;
+        System.out.println("Pattern B");
+        for(row=6;row>=1;row--)
+        {
+            for(column=1;column<=row;column++)
+            {
+                System.out.print(column);
+            }
+            System.out.println();
+        }
+    }
+}

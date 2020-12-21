@@ -1,0 +1,11 @@
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\assingment
+> run part_A
+   
+     ARK PATEL    
+        (\        
+        \||       
+       __(_";     
+   /   \          
+      {}__)()      
+     (rabbit)      
+> 

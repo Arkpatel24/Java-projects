@@ -1,0 +1,51 @@
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\study\assignment2
+> run sheridan.partB
+Heads
+Tails
+Tails
+Heads
+Heads
+Tails
+Tails
+Tails
+Tails
+Tails
+Number of times head came:3
+Number of times tail came:7
+> 
+
+
+
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\study\assignment2
+> run sheridan.partB
+Heads
+Heads
+Tails
+Tails
+Tails
+Heads
+Tails
+Heads
+Heads
+Tails
+Number of times head came:5
+Number of times tail came:5
+> 
+
+
+
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\study\assignment2
+> run sheridan.partB
+Tails
+Heads
+Heads
+Heads
+Tails
+Tails
+Heads
+Heads
+Heads
+Heads
+Number of times head came:7
+Number of times tail came:3
+> 

@@ -1,0 +1,30 @@
+package sheridan;
+import java.util.Scanner;//use for input
+public class DatabaseTest
+{
+    public static void main(String[] args)
+    {
+        Scanner input=new Scanner(System.in);
+        try
+        {
+            System.out.println("Enter the table size:");
+            int userSize=input.nextInt();
+            input.nextLine();
+            Database self=new Database(userSize);
+            for(int index=0;index<userSize;index++)
+            {
+                System.out.println("Enter the item");
+                String item=input.nextLine();
+                self.add(item,index);
+            }
+            self.print();
+            self.sort();
+            System.out.print("Sorted Arrayt is");
+            self.print();
+        }
+        catch (Exception e)
+        {
+            System.out.println("Bad input");
+        }
+    }
+}

@@ -1,0 +1,12 @@
+import java.util.Random;
+public class RandomExample
+{
+    public class void main(String args[])
+    {
+        Random rnd = new Random;
+        int rndValue;
+        
+        rndValue = rnd intInt(6);
+        System.out.println("Value is :"+rndValue)
+    }
+}

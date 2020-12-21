@@ -1,0 +1,44 @@
+package sheridan;
+import java.util.*;
+
+
+
+public class Account
+{
+	private String _fullName;
+	private double _balance = 0.0;
+	
+	public void setFullName(String fullName)
+	{
+		this._fullName = fullName;
+	}
+	
+	public String getFullName()
+	{
+		return _fullName;
+	}
+	
+	public void setBalance(double balance)
+	{
+		this._balance = balance;
+	}
+	
+	public double getBalance()
+	{
+		return _balance;
+	}
+	
+	public void deposit(double amount)
+	{
+		_balance += amount;
+	}
+	
+	public void withdraw(double amount)
+	{
+		_balance -= amount;
+	}
+	public void printBalance(){
+		System.out.println("The current balance is :"+_balance);
+	}
+	
+}

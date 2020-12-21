@@ -1,0 +1,18 @@
+/* Ch2Ex14.java is a program that calculate Body Mass Index
+ * Author: ARK PATEL
+*/
+import java.util.Scanner;
+package sheridan;
+//defination of class Ch2Ex14
+public class Ch2Ex14
+{
+    public static void main(String args[])
+    {
+        //declaration and initialization of variables
+        double bmi,kilograms,pounds,inches,meters;
+        Scanner input= new Scanner(System.in);
+        
+        System.out.print("Enter weight in pounds :");
+        pounds=input.nextDouble();
+    }//end of main method
+}//end of class Ch2Ex14

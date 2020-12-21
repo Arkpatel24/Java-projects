@@ -1,0 +1,44 @@
+/* Ch3Ex1.java is a program that calculates quadratic equation
+ * Author : ARK PAtel
+*/
+
+package sheridan;
+import java.util.Scanner;//scan the inputs
+// declaration of class
+public class Ch3Ex1
+{
+    public static void main(String[] args) 
+      {
+        // declaration of variables 
+        double a, b, c;
+        double root1, root2, descriminent;
+        Scanner input = new Scanner(System.in);
+        //inputs
+        System.out.print("Enter a:");
+        a = input.nextInt();
+        System.out.print("Enter b:");
+        b = s.nextInt();
+        System.out.print("Enter c:");
+        c = s.nextInt();
+        // calculates the discriminent 
+        discriminent = b * b - 4 * a * c;
+        if(discriminent > 0)
+        {
+            System.out.println("Roots are real and unequal");
+            root1 = ( - b + Math.sqrt(d))/(2*a);
+            root2 = (-b - Math.sqrt(d))/(2*a);
+            System.out.println("First root is:"+root1);
+            System.out.println("Second root is:"+root2);
+        }
+        else if(discriminent == 0)
+        {
+            System.out.println("Roots are real and equal");
+            root1 = (-b+Math.sqrt(d))/(2*a);
+            System.out.println("Root:"+root1);
+        }
+        else
+        {
+            System.out.println("Roots are imaginary");
+        }
+    }
+}

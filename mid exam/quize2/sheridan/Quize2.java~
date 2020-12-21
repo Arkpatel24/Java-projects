@@ -1,0 +1,31 @@
+package sheridan;
+import java.util.Scanner;
+public class Quize2
+{
+   //double _count=0;
+    public static void main(String args[])
+    {
+        Quize2 self=new Quize();
+        double result;
+        double userLoopEnd;
+        Scanner input=new Scanner(System.in);
+        System.out.print("Enter the loop endpoint number:");
+        userLoopEnd=input.nextDouble();
+        result=self.calculate();
+        System.out.println("Value of pi is:"+result);
+    }
+    
+    public double calculate(double loopEnd)
+    {
+        double pi;
+        double total=0;
+        double count;
+        
+        for(count=1;count<=loopEnd;count=count+4)
+        {
+            total=(1.0/count - 1.0/(count+2));
+            pi=total*4;
+        }
+        return pi;
+    }
+}

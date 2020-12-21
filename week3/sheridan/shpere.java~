@@ -1,0 +1,9 @@
+package sheridan;
+public class shpere
+{
+    public static void main(String args[])
+    {
+        float volume,radius=2.2;
+        volume=4/3*radius
+    }
+}

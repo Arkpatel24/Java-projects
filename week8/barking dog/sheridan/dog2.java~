@@ -1,0 +1,34 @@
+
+
+
+package sheridan;
+import java.util.Scanner;
+public class dog2
+{
+    private int _weigth;
+    
+    public void setWeight(int weight)
+    {
+       int _weight = weight;
+        
+        if(_weight>=30)
+        {
+            System.out.println("Big Dog Bark");
+        }
+        else
+        {
+            System.out.println("Small Dog Bark");
+        }
+    }
+    
+    public static void main(String args[])
+    {
+        Scanner input= new Scanner(System.in);
+        dog2 self = new dog2();
+        int dogWeight;
+        System.out.print("Enter dog weigth:");
+        dogWeight=input.nextInt();
+        self.setWeight(dogWeight);
+        
+    }
+}

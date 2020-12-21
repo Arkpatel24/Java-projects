@@ -1,0 +1,24 @@
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\study\assignment2
+> 
+run sheridan.partA
+
+Enter dice value: [DrJava Input Box]
+
+Invalide value...write value between 1 to 6
+>
+
+
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\study\assignment2
+> run sheridan.partA
+Enter dice value: [DrJava Input Box]
+o 
+ o
+> 
+
+
+Welcome to DrJava.  Working directory is E:\SHERIDAN\TERM-1\JAVA_PROG\study\assignment2
+> run sheridan.partA
+Enter dice value: [DrJava Input Box]
+o  o
+o  o
+>  

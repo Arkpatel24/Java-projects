@@ -1,0 +1,9 @@
+package sheridan;
+
+public class TernaryDemo
+{
+    public static void main(String args[])
+    {
+        
+    }//end of main method
+}//end of class

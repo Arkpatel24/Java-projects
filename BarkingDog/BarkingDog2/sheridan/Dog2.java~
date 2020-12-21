@@ -1,0 +1,26 @@
+package sheridan;
+public class Dog2
+{
+    private String name;
+    public void setName(String newName)
+    {
+        name = newName;
+    }
+    public void bigBark()
+    {
+        System.out.println(name + " says Woof! Woof!");
+    }
+    public void smallBark()
+    {
+        System.out.println(name + " says Yip! Yip!");
+    }
+    public static void main (String[] args) 
+    {
+        Dog2 one = new Dog2();
+        one.setName("Thor");
+        Dog2 two = new Dog2();
+        two.setName("Tiny");
+        one.bigBark();
+        two.smallBark();
+    }
+} // End of class Dog2

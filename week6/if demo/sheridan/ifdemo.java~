@@ -1,0 +1,16 @@
+package sheridan;
+
+public class ifdemo
+{
+    public static void main()
+    {
+        //declaration and inisialization
+        int grade;
+        
+        if(grade>=80)
+        {
+            system.out.println("You got an A");
+        }
+    }
+}
+    

@@ -1,0 +1,10 @@
+package sheridan
+public class Ch1Ex8
+{
+    public static void main(String args[])
+    {
+        double radius=5.5,area,parimeter;
+        area=radius*radius*
+        
+    }
+}
